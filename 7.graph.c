@@ -110,5 +110,6 @@ int main()
     addEdge(2, 7); // C - H
     printf("Depth First Search: ");
     depthFirstSearch();
+    printf("\n");
     return 0;
 }

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 struct node
  {
@@ -210,6 +209,4 @@ int main()
        printf("invalid choice\n");
      }
    }
-//  getch();
-//  return 0;
  }

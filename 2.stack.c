@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<conio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #define max 5
 int top=-1,stack[max],item;
 void push(int item)
@@ -75,6 +74,5 @@ int main()
       break;
     }
   }
-  getch();
   return 0;
  }

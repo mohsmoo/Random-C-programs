@@ -139,4 +139,5 @@ void main()
   root = deletenode(root,10);
   printf("inorder traversal:\n");
   inorder(root);
+  printf("\n");
  }

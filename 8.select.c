@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a[6]={ 7,4,10,8,3,1};
+    int a[10]={2,1,5,4,10,3,7,9,8,6};
     int i,j,temp;
     int min= 0;
-    int n = 6;
+    int n = 10;
     for (i = 0;i<n - 1; i++)
     {
         int min = i;
@@ -26,5 +26,6 @@ int main()
     {
         printf("%d ",a[i]);
     }
+    printf("\n");
     return 0;
 }
